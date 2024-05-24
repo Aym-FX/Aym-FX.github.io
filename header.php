@@ -4,8 +4,8 @@
         <div class="row">
             <div class="grid_12">
                 <br><br><br><br>
-                <h1><a href="#">Aymeric Sudre</a></h1>
-                Technicien Supérieur en Informatique
+                <h1 class="nameP">Aymeric Sudre</h1>
+                <div class="textP" >Technicien Supérieur en Informatique</div>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
                     <nav>
                         <ul class="sf-menu">
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/index.php') ? 'current' : ''; ?>"><a href="index.php">Accueil</a></li>
-                            <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/projets.php') ? 'current' : ''; ?>"><a href="projets.php">Projets</a></li>
+                            <li class="<?= ($_SERVER['SCRIPT_NAME'] != '/portfolio/index.php' && $_SERVER['SCRIPT_NAME'] != '/portfolio/numresp.php' && $_SERVER['SCRIPT_NAME'] != '/portfolio/apropos.php' && $_SERVER['SCRIPT_NAME'] != '/portfolio/contacts.php') ? 'current' : ''; ?>"><a href="projets.php">Projets</a></li>
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/numresp.php') ? 'current' : ''; ?>"><a href="numresp.php">Green IT</a></li>
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/apropos.php') ? 'current' : ''; ?>"><a href="apropos.php">À propos</a></li>
                             <li class="<?= ($_SERVER['SCRIPT_NAME'] == '/portfolio/contacts.php') ? 'current' : ''; ?>"><a href="contacts.php">Contacts</a></li>
